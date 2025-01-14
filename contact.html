@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-BRANDING</title>
+    <link href="./assets/D- BRANDING (2).png" rel="icon">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class=' full md:flex justify-center hidden'>
+        <div class="w-9/12 flex justify-between">
+        <!-- LogoPart -->
+        <div class="">
+            <div class=" logo"> <img class="w-24 h-24" src="assets/D- BRANDING (3).png" alt="" onclick="window.location.href='index.html'"></div>
+        </div>
+        <!-- menuItems -->
+        <div class=" flex list-none justify-evenly gap-16 items-center">
+            <li 
+                class="hover:border-b-2 hover:border-red-500 cursor-pointer" 
+                onclick="window.location.href='index.html'">
+                 Home
+            </li>
+            <li class="hover:border-b-2 hover:border-red-500">About</li>
+            <li class="hover:border-b-2 hover:border-red-500">Blog</li>
+            <li class="hover:border-b-2 hover:border-red-500">Service</li>
+            <li class="hover:border-b-2 hover:border-red-500">Career</li>
+        </div>
+        <!-- ContactPart -->
+         <div class="flex justify-center items-center">
+            <div>
+                <button
+                  class="border-2 border-black rounded-xl p-3 px-6"
+                  onclick="window.location.href='contact.html'">
+                  Contact
+                </button>
+              </div>
+         </div>
+        </div>
+    </nav>
+
+    <!-- ContactPart -->
+     <div style="background-color: #d0d0d2;" class="flex justify-center pb-24 ">
+
+
+        <div class="md:w-9/12 w-full h-96 mt-8 rounded-3xl bg-white md:flex">
+        <!-- One -->
+        <div class=" md:w-1/2 w-full  rounded-3xl flex flex-col items-center">
+            <!-- hedingAnddes -->
+            <div class="flex flex-col items-center mt-10 gap-3 p-10">
+                <p class="text-3xl font-semibold">Chat to our team</p>
+                <p style="color: #687074;" class="text-xs p-2 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum quidem cumque explicabo fuga aspernatur est error harum</p>
+            </div>
+            <!-- formSection -->
+            <form class="space-y-6 md:p-0 p-4 ">
+                <!-- First Name and Last Name -->
+                <div class="flex space-x-4 ">
+                  <label class="flex-1">
+                    <span class="block text-gray-500 mb-1">First Name</span>
+                    <input 
+                      type="text" 
+                      name="first_name" 
+                      placeholder="First Name"
+                      class="w-full border-b-2 border-gray-300 focus:border-gray-500 outline-none p-1"
+                    />
+                  </label>
+                  <label class="flex-1">
+                    <span class="block text-gray-500 mb-1">Last Name</span>
+                    <input 
+                      type="text" 
+                      name="last_name" 
+                      placeholder="Last Name"
+                      class="w-full border-b-2 border-gray-300 focus:border-gray-500 outline-none p-1"
+                    />
+                  </label>
+                </div>
+            
+                <!-- Email -->
+                <label class="block">
+                  <span class="block text-gray-500 mb-1">Email</span>
+                  <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Email Address"
+                    class="w-full border-b-2 border-gray-300 focus:border-gray-500 outline-none p-1"
+                  />
+                </label>
+            
+                <!-- Message -->
+                <label class="block">
+                  <span class="block text-gray-500 mb-1">Message</span>
+                  <textarea 
+                    name="message" 
+                    placeholder="Your message..."
+                    rows="3"
+                    class="w-full border-b-2 border-gray-300 focus:border-gray-500 outline-none p-1 resize-none"
+                  ></textarea>
+                </label>
+            
+                <!-- Submit Button -->
+                <button  style="background-color: #b73437; margin-bottom: 10px;"
+                  type="submit"
+                  class=" text-white px-6  py-2 rounded-lg hover:bg-blue-600 focus:outline-none"
+                >
+                  Submit
+                </button>
+              </form>
+        </div>
+        <!-- Two -->
+        <div class="md:-1/2 hidden md:flex p-2">
+            <div class="w-full h-full ">
+                <img 
+                    src="https://cnnespanol.cnn.com/wp-content/uploads/2018/05/leadsecurity.jpg?quality=100&strip=info" 
+                    alt=""
+                    class="w-full h-full object-cover rounded-3xl"
+                />
+            </div>
+        </div>
+     </div>
+    </div>
+</body>
+</html>
